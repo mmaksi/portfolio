@@ -1,9 +1,13 @@
-import Image from "next/image";
+import AboutMe from '@/components/about-me';
+import Hero from '@/components/hero';
+import { TabsMenu } from '@/components/tabs';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     Coming soon
-    </main>
+    <div>
+      <Hero />
+      <AboutMe />
+      <TabsMenu />
+    </div>
   );
 }
