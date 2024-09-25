@@ -1,5 +1,5 @@
 import React from 'react';
-import { AspectRatio } from './ui/aspect-ratio';
+import { AspectRatio } from '../../ui/aspect-ratio';
 
 interface Video {
   id: string;

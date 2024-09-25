@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
-import YouTubeComment from './youtube-comment';
+import YouTubeComment from '../youtube-comment';
 import { Mail } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -17,10 +18,15 @@ export default function Hero() {
             with 30,000+ views, and educatonal content with over 500 subscribers
             on YouTube.
           </p>
-          <Button className="flex text-lg p-5 items-center gap-2 bg-foreground text-background hover:text-foreground hover:bg-background hover:border-2 hover:border-foreground">
-            <Mail className="w-6 h-6" />
-            <span className="text-base">Get in Touch</span>
-          </Button>
+          <Link href="mailto:services@markmaksi.com">
+            <Button
+              type="button"
+              className="flex text-lg p-5 items-center gap-2 bg-foreground text-background hover:text-foreground hover:bg-background hover:border-2 hover:border-foreground"
+            >
+              <Mail className="w-6 h-6" />
+              <span className="text-base">Get in Touch</span>
+            </Button>
+          </Link>
         </div>
         <div className="flex-1">
           <div className="flex flex-col gap-4">

@@ -1,6 +1,7 @@
-import AboutMe from '@/components/about-me';
-import Hero from '@/components/hero';
-import { TabsMenu } from '@/components/tabs';
+import AboutMe from '@/components/sections/about-me';
+import Technologies from '@/components/sections/technologies';
+import { TabsMenu } from '@/components/sections/tabs/tabs';
+import Hero from '@/components/sections/hero';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <AboutMe />
       <TabsMenu />
+      <Technologies />
     </div>
   );
 }
