@@ -1,3 +1,4 @@
+import techFaqsImage from '@/assets/project-diagrams/tech-faqs/home.png';
 import kanbanImage from '@/assets/kanban.png';
 import astcImage from '@/assets/astc.png';
 import uaefmaImage from '@/assets/uaefma.png';
@@ -35,7 +36,7 @@ export const projects: Project[] = [
     id: 1,
     title: 'ASTC Dubai',
     url: 'https://www.astc.com',
-    categories: ['Web Development'],
+    categories: ['Web Application'],
     imageUrl: astcImage,
     text: 'background',
     background: 'foreground',
@@ -44,7 +45,7 @@ export const projects: Project[] = [
     id: 2,
     title: 'UAEFMA Dubai',
     url: 'https://www.uaefma.com',
-    categories: ['Web Development'],
+    categories: ['Web Application'],
     imageUrl: uaefmaImage,
     text: 'foreground',
     background: 'background',
@@ -53,7 +54,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Kanban Task Management System',
     url: '/projects/kanban',
-    categories: ['Web Development'],
+    categories: ['Web Application'],
     imageUrl: kanbanImage,
     text: 'background',
     background: 'foreground',
@@ -62,8 +63,8 @@ export const projects: Project[] = [
     id: 4,
     title: 'Event Exchange',
     url: '/projects/event-exchange',
-    categories: ['Personal Business'],
-    imageUrl: kanbanImage,
+    categories: ['Web Application'],
+    imageUrl: techFaqsImage,
     text: 'background',
     background: 'foreground',
   },
@@ -71,10 +72,10 @@ export const projects: Project[] = [
     id: 5,
     title: 'TechFAQs',
     url: '/projects/techfaqs',
-    categories: ['Web Development'],
-    imageUrl: kanbanImage,
-    text: 'background',
-    background: 'foreground',
+    categories: ['Web Application'],
+    imageUrl: techFaqsImage,
+    text: 'foreground',
+    background: 'background',
   },
 ];
 
