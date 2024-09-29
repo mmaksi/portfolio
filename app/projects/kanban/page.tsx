@@ -81,15 +81,25 @@ export default function ProjectDetailsPage() {
         </div>
       </div>
       <h2 className="text-2xl font-semibold mb-2">Description</h2>
-      <p className="mb-6">
-        {project.description}{' '}
-        <Link
-          className="text-blue-600 hover:underline"
-          href="https://markmaksi-kantask.vercel.app"
-        >
-          Live demo
-        </Link>
-      </p>
+      <p className="mb-6">{project.description}</p>
+      <ul className="list-none pl-5 mb-6">
+        <li>
+          <Link
+            className="relative pl-6 before:absolute before:left-0 before:top-1 before:h-2 before:w-2 before:bg-white before:rounded-full mb-3 text-blue-500 hover:underline"
+            href="https://markmaksi-kantask.vercel.app"
+          >
+            Live Demo
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="relative pl-6 before:absolute before:left-0 before:top-1 before:h-2 before:w-2 before:bg-white before:rounded-full mb-3 text-blue-500 hover:underline"
+            href="https://github.com/mmaksi/kanban"
+          >
+            Codebase on GitHub
+          </Link>
+        </li>
+      </ul>
       <h2 className="text-2xl font-semibold mb-0">App Architecture:</h2>
       <div className="flex flex-col justify-center items-center mb-4">
         <Carousel className="w-[80%] my-6">
