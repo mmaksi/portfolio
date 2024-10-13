@@ -82,7 +82,7 @@ export default function ProjectDetailsPage() {
         <li>
           <Link
             className="relative pl-6 before:absolute before:left-0 before:top-1 before:h-2 before:w-2 before:bg-white before:rounded-full mb-3 text-blue-500 hover:underline"
-            href="https://github.com/mmaksi/kanban"
+            href="https://github.com/mmaksi/event-exchange"
           >
             Codebase on GitHub
           </Link>
