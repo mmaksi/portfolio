@@ -1,7 +1,9 @@
 import techFaqsImage from '@/assets/project-diagrams/tech-faqs/home.png';
-import kanbanImage from '@/assets/kanban.png';
-import astcImage from '@/assets/astc.png';
-import uaefmaImage from '@/assets/uaefma.png';
+import kanbanImage from '@/assets/projects/kanban.png';
+import astcImage from '@/assets/projects/astc.png';
+import uaefmaImage from '@/assets/projects/uaefma.png';
+import eventExchangeImage from '@/assets/projects/event-exchange.png';
+
 import { StaticImageData } from 'next/image';
 
 import Deno from '@/assets/logos/deno.png';
@@ -64,7 +66,7 @@ export const projects: Project[] = [
     title: 'Event Exchange',
     url: '/projects/event-exchange',
     categories: ['Web Application'],
-    imageUrl: techFaqsImage,
+    imageUrl: eventExchangeImage,
     text: 'background',
     background: 'foreground',
   },

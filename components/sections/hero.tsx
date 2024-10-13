@@ -29,6 +29,9 @@ export default function Hero() {
           </Link>
         </div>
         <div className="flex-1">
+          <h1 className="text-2xl font-bold leading-tight mb-4 mt-10 lg:mt-0 text-center">
+            What people say about my YouTube videos!
+          </h1>
           <div className="flex flex-col gap-4">
             <YouTubeComment
               username="@paolahinostroza6659"

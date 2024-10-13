@@ -24,11 +24,11 @@ export default function AboutMe() {
         <p>
           I believe that not until one begins to write till they discover
           one&rsquo;s ignorance. Thus, I am deeply passionate about technical
-          writing. The articles I&rsquo;ve written on numerous technical topics
-          are deep, precise, and professional. I take great pride in knowing
-          that my technical writings have reached a global audience, with over
-          30,000 views worldwide. Many of my blog posts are also in video format
-          on YouTube with over 500 subscribers.
+          writing. The technical articles I&rsquo;ve written are deep, precise,
+          and professional. I take great pride in knowing that my technical
+          writings have reached a global audience, with over 30,000 views
+          worldwide. Many of my blog posts are also in video format on YouTube
+          with over 500 subscribers.
         </p>
         <div className="flex flex-row gap-7 mt-8">
           <Link
@@ -41,7 +41,7 @@ export default function AboutMe() {
             href="markmaksi.hashnode.dev"
             className="border-foreground hover:border-b-2 transition-border duration-75 ease-linear"
           >
-            Blog
+            Articles
           </Link>
           <Link
             href="https://www.youtube.com/@markmaksi"
