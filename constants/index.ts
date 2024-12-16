@@ -3,6 +3,7 @@ import kanbanImage from '@/assets/projects/kanban.png';
 import astcImage from '@/assets/projects/astc.png';
 import uaefmaImage from '@/assets/projects/uaefma.png';
 import eventExchangeImage from '@/assets/projects/event-exchange.png';
+import sitemapAlertImage from '@/assets/projects/sitemap-alert.png';
 
 import { StaticImageData } from 'next/image';
 
@@ -37,34 +38,16 @@ interface Project {
 
 export const projects: Project[] = [
   {
-    id: 4,
-    title: 'Event Exchange',
-    url: '/projects/event-exchange',
+    id: 1,
+    title: 'Sitemap Alert',
+    url: '/projects/sitemap-alert',
     categories: ['Web Application'],
-    imageUrl: eventExchangeImage,
-    text: 'background',
-    background: 'foreground',
-  },
-  {
-    id: 3,
-    title: 'Kanban Task Management System',
-    url: '/projects/kanban',
-    categories: ['Web Application'],
-    imageUrl: kanbanImage,
+    imageUrl: sitemapAlertImage,
     text: 'background',
     background: 'foreground',
   },
   {
     id: 2,
-    title: 'UAEFMA Dubai',
-    url: 'https://www.uaefma.com',
-    categories: ['Web Application'],
-    imageUrl: uaefmaImage,
-    text: 'foreground',
-    background: 'background',
-  },
-  {
-    id: 1,
     title: 'ASTC Dubai',
     url: 'https://www.astc.com',
     categories: ['Web Application'],
@@ -73,7 +56,34 @@ export const projects: Project[] = [
     background: 'foreground',
   },
   {
+    id: 3,
+    title: 'UAEFMA Dubai',
+    url: 'https://www.uaefma.com',
+    categories: ['Web Application'],
+    imageUrl: uaefmaImage,
+    text: 'foreground',
+    background: 'background',
+  },
+  {
+    id: 4,
+    title: 'Kanban Task Management System',
+    url: '/projects/kanban',
+    categories: ['Web Application'],
+    imageUrl: kanbanImage,
+    text: 'background',
+    background: 'foreground',
+  },
+  {
     id: 5,
+    title: 'Event Exchange',
+    url: '/projects/event-exchange',
+    categories: ['Web Application'],
+    imageUrl: eventExchangeImage,
+    text: 'background',
+    background: 'foreground',
+  },
+  {
+    id: 6,
     title: 'TechFAQs',
     url: '/projects/techfaqs',
     categories: ['Web Application'],
