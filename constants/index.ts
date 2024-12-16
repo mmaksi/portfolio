@@ -22,6 +22,8 @@ import Python from '@/assets/logos/python.png';
 import ReactLogo from '@/assets/logos/react.png';
 import Tailwindcss from '@/assets/logos/tailwindcss.png';
 import Typescript from '@/assets/logos/typescript.png';
+import Brain from '@/assets/logos/brain.png';
+import ChatGPT from '@/assets/logos/chatgpt.png';
 
 interface Project {
   id: number;
@@ -82,6 +84,14 @@ export const projects: Project[] = [
 ];
 
 export const technologies = [
+  {
+    name: 'My Brain',
+    icon: Brain,
+  },
+  {
+    name: 'ChatGPT',
+    icon: ChatGPT,
+  },
   {
     name: 'Typescript',
     icon: Typescript,

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://markmaksi.com',
     title: 'Mark Maksi - Software Developer | Content Creator',
     description:
-      'Software developer specialized in web development from simple websites to large scale applications. Authored 22 technical articles with 30,000+ views, and educatonal content with over 500 subscribers on YouTube.',
+      'Software developer specialized in web development from simple websites to large scale applications. Authored 22 technical articles with 40,000+ views, and educatonal content with over 560+ subscribers on YouTube.',
     siteName: 'Mark Maksi',
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     ],
   },
   description:
-    'Software developer specialized in web development from simple websites to large scale applications. Authored 22 technical articles with 30,000+ views, and educatonal content with over 500 subscribers on YouTube.',
+    'Software developer specialized in web development from simple websites to large scale applications. Authored 22 technical articles with 40,000+ views, and educatonal content with over 560+ subscribers on YouTube.',
 };
 
 export default function RootLayout({

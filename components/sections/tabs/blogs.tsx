@@ -51,8 +51,8 @@ const blogPosts: BlogPost[] = [
 
 export default function BlogPosts() {
   return (
-    <div className="container mx-auto px-4 pt-8">
-      <h2 className="text-3xl font-bold mb-8">Latest Blog Posts</h2>
+    <div className="container mx-auto pt-2">
+      <h2 className="text-3xl font-bold mb-4">Latest Blog Posts</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogPosts.map((post) => (
           <Link href={post.url} key={post.id}>

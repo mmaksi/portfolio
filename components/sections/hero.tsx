@@ -5,30 +5,32 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <div className="flex lg:min-h-dvh pt-10 px-6 lg:px-16 lg:py-16">
+    <div className="flex lg:min-h-dvh lg:px-16 lg:py-10">
       <div className="flex lg:flex-row gap-8 flex-col">
-        <div className="flex-0 lg:w-3/5 md:w-full">
-          <p className="text-xl font-bold mb-10">Mark Maksi</p>
-          <h1 className="text-4xl font-bold leading-tight">
-            Creating Web Applications and Websites from Frontend to Backend
-          </h1>
-          <p className="text-xl text-gray-400 my-8">
-            Software developer specialized in web development from simple
-            websites to large scale applications. Authored 22 technical articles
-            with 30,000+ views, and educatonal content with over 500 subscribers
-            on YouTube.
-          </p>
-          <Link href="mailto:services@markmaksi.com">
-            <Button
-              type="button"
-              className="flex text-lg p-5 items-center gap-2 bg-foreground text-background hover:text-foreground hover:bg-background hover:border-2 hover:border-foreground"
-            >
-              <Mail className="w-6 h-6" />
-              <span className="text-base">Get in Touch</span>
-            </Button>
-          </Link>
+        <div className="flex-0 lg:w-3/5 md:w-full px-6">
+          <p className="text-xl font-bold mb-10 mt-16 lg:mt-0">Mark Maksi</p>
+          <div className="w-[90%]">
+            <h1 className="text-4xl font-bold leading-tight">
+              Creating Web Applications and Websites from Frontend to Backend
+            </h1>
+            <p className="text-xl text-gray-400 my-8">
+              Software developer specialized in web development from simple
+              websites to large scale applications. Authored 22 technical
+              articles with 40,000+ views, and educatonal content with over 500
+              subscribers on YouTube.
+            </p>
+            <Link href="mailto:services@markmaksi.com">
+              <Button
+                type="button"
+                className="p-5 bg-foreground text-background hover:text-foreground hover:bg-background hover:border-2 hover:border-foreground"
+              >
+                <Mail className="w-6 h-6 mr-2" />
+                <span className="text-base">Get in Touch</span>
+              </Button>
+            </Link>
+          </div>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 px-6">
           <h1 className="text-2xl font-bold leading-tight mb-4 mt-10 lg:mt-0 text-center">
             What people say about my YouTube videos!
           </h1>

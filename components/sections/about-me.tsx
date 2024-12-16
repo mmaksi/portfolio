@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col lg:flex-row gap-8 bg-gradient-to-b from-top to-bottom rounded-lg mx-6 my-10 p-8 lg:px-16 lg:mx-16">
+    <div className="flex flex-col lg:flex-row gap-8 bg-gradient-to-b from-top to-bottom rounded-lg mx-6 py-10 my-16 p-8 lg:px-16 lg:mx-16">
       <div className="flex justify-center items-start">
         <Image
           src="https://pbs.twimg.com/profile_images/1836116652137627648/GGYr1o8x_400x400.jpg"
@@ -26,9 +26,9 @@ export default function AboutMe() {
           one&rsquo;s ignorance. Thus, I am deeply passionate about technical
           writing. The technical articles I&rsquo;ve written are deep, precise,
           and professional. I take great pride in knowing that my technical
-          writings have reached a global audience, with over 30,000 views
+          writings have reached a global audience, with over 40,000 views
           worldwide. Many of my blog posts are also in video format on YouTube
-          with over 500 subscribers.
+          with over 560+ subscribers.
         </p>
         <div className="flex flex-row gap-7 mt-8">
           <Link
