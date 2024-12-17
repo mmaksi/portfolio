@@ -25,12 +25,13 @@ export default function Projects() {
                     </h3>
                   </div>
                   {project.categories.map((category) => (
-                    <Badge
-                      key={category}
-                      className={`absolute top-2 left-2 bg-${project.background} text-${project.text}`}
-                    >
-                      {category}
-                    </Badge>
+                    <div key={category}>
+                      <Badge
+                        className={`absolute top-2 left-2 bg-${project.background} text-${project.text}`}
+                      >
+                        {category}
+                      </Badge>
+                    </div>
                   ))}
                 </CardContent>
               </Link>

@@ -4,6 +4,7 @@ import astcImage from '@/assets/projects/astc.png';
 import uaefmaImage from '@/assets/projects/uaefma.png';
 import eventExchangeImage from '@/assets/projects/event-exchange.png';
 import sitemapAlertImage from '@/assets/projects/sitemap-alert.png';
+import quickMealImage from '@/assets/projects/quickmeal.png';
 
 import { StaticImageData } from 'next/image';
 
@@ -48,6 +49,15 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: 'QuickMeal',
+    url: '/projects/quickmeal',
+    categories: ['Mobile Application'],
+    imageUrl: quickMealImage,
+    text: 'background',
+    background: 'foreground',
+  },
+  {
+    id: 3,
     title: 'ASTC Dubai',
     url: 'https://www.astc.com',
     categories: ['Web Application'],
@@ -56,7 +66,7 @@ export const projects: Project[] = [
     background: 'foreground',
   },
   {
-    id: 3,
+    id: 4,
     title: 'UAEFMA Dubai',
     url: 'https://www.uaefma.com',
     categories: ['Web Application'],
@@ -65,7 +75,7 @@ export const projects: Project[] = [
     background: 'background',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Kanban Task Management System',
     url: '/projects/kanban',
     categories: ['Web Application'],
@@ -74,7 +84,7 @@ export const projects: Project[] = [
     background: 'foreground',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Event Exchange',
     url: '/projects/event-exchange',
     categories: ['Web Application'],
@@ -83,7 +93,7 @@ export const projects: Project[] = [
     background: 'foreground',
   },
   {
-    id: 6,
+    id: 7,
     title: 'TechFAQs',
     url: '/projects/techfaqs',
     categories: ['Web Application'],
