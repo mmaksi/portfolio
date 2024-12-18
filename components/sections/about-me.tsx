@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col lg:flex-row gap-8 bg-gradient-to-b from-top to-bottom rounded-lg mx-6 py-10 my-16 p-8 lg:px-16 lg:mx-16">
+    <div className="flex flex-col lg:flex-row gap-8 bg-gradient-to-b from-top to-bottom rounded-lg mx-6 py-10 mt-16 p-8 lg:px-16 lg:mx-16">
       <div className="flex justify-center items-start">
         <Image
           src="https://pbs.twimg.com/profile_images/1836116652137627648/GGYr1o8x_400x400.jpg"

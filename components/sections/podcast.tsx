@@ -6,7 +6,7 @@ const Podcast = () => {
   return (
     <section className="my-10">
       <div className="container mx-auto lg:px-16">
-        <h2 className="text-3xl font-bold text-center mb-8 px-6">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 px-6">
           Listen to my story on{' '}
           <Link
             className="text-blue-500 relative after:absolute after:bottom-0 after:left-0 after:h-[4px] after:w-0 after:bg-blue-500 after:transition-all after:duration-200 hover:after:w-full"
