@@ -34,9 +34,14 @@ export default function InfiniteScrollGallery({
 
   return (
     <div className="relative w-full overflow-hidden">
-      <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 px-6 w-[70%] mx-auto">
+      <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 px-6 lg:w-[70%] mx-auto mt-10">
         Learn more about me outside of work
       </h2>
+      <p className="text-center px-8 lg:px-20 text-xl mb-2">
+        I always find joy in discovering myself, Nature and empowering the
+        people around me by being a good example of excellence, dedication, and
+        team work.
+      </p>
       <div
         ref={scrollRef}
         className="flex overflow-x-hidden"

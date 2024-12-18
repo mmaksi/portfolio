@@ -4,7 +4,7 @@ import React from 'react';
 
 const Technologies = () => {
   return (
-    <div className="flex flex-col justify-center items-start px-6 mt-8 lg:px-16 lg:py-16 lg:mt-0">
+    <div className="flex flex-col justify-center items-start px-6 mt-10 lg:px-16 lg:py-16 lg:mt-0">
       <h2 className="text-3xl font-bold mb-4">My Cool Tools</h2>
       <div className="flex flex-wrap lg:gap-6 gap-1 justify-center items-center">
         {technologies.map((tech) => (

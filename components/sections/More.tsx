@@ -1,14 +1,16 @@
 import React from 'react';
 import InfiniteScrollGallery from '../InfiniteScrollGallery';
 import image1 from '@/assets/more/backflip.jpg';
-import image2 from '@/assets/more/fire.jpg';
+import image2 from '@/assets/more/kids.jpg';
 import image3 from '@/assets/more/kid.jpg';
-import image4 from '@/assets/more/handstand.jpg';
-import image5 from '@/assets/more/kids.jpg';
-import image6 from '@/assets/more/thomas.jpg';
+import image4 from '@/assets/more/vsit.jpg';
+import image5 from '@/assets/more/lealilia.png';
+import image6 from '@/assets/more/handstand.jpg';
 import image7 from '@/assets/more/people.jpg';
-import image8 from '@/assets/more/vsit.jpg';
-import image9 from '@/assets/more/hs.jpg';
+import image8 from '@/assets/more/fire.jpg';
+import image9 from '@/assets/more/jalal.jpg';
+import image10 from '@/assets/more/thomas.jpg';
+import image11 from '@/assets/more/hs.jpg';
 
 const images = [
   image1,
@@ -20,6 +22,8 @@ const images = [
   image7,
   image8,
   image9,
+  image10,
+  image11,
 ];
 
 const More = () => {

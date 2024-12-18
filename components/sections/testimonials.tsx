@@ -53,6 +53,7 @@ export const AnimatedTestimonials = ({
             <AnimatePresence>
               {testimonials.map((testimonial, index) => (
                 <motion.div
+                  onClick={handleNext}
                   key={testimonial.quote}
                   initial={{
                     opacity: 0,
@@ -80,7 +81,7 @@ export const AnimatedTestimonials = ({
                     duration: 0.4,
                     ease: 'easeInOut',
                   }}
-                  className="absolute inset-0 origin-bottom"
+                  className="absolute inset-0 origin-bottom hover:cursor-pointer"
                 >
                   <Image
                     src={testimonial.src}
